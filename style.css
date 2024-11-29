@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-align: left;
+    background: #3B4664; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.text {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: large;
+    top: 35px;
+    margin-left: -470px;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33.89px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.zero {
+    font-family: Segoe UI;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 73.15px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-top: 37px;
+    padding-right: 110px;
+}
+
+.display {
+    background: #252D44;
+    width: 536px;
+    height: 142.73px;
+    top: 194px;
+    left: 466px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+}
+
+.numpad {
+    background: #252D44;
+    width: 536px;
+    height: 487px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+}
+
+.numbers {
+    justify-content: center;
+    align-items: center;
+    margin: 50px 40px 20px 40px;
+    width: Hug (466px)px;
+    height: Hug (392px)px;
+    top: 48px;
+    left: 35px;
+    gap: 23px;
+    opacity: 0px;
+    display: grid;
+    color: white;
+    font-size: larger;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+        "item1 item2 item3 item4",
+        "item5 item6 item7 item8",
+        "item9 item10 item11 item12",
+        "item13 item14 item15 item16";
+}
+
+.nums {
+    font-family: 'Inter', sans-serif;
+    font-size: large;
+    background: #3B4664;
+    width: 100%;
+    height: 60px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    background: #EAE3DB;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36.31px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+}
+
+.last-row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: 
+        "item1 item2";
+    gap: 5px;
+    margin: 10px 40px 0px 40px;
+
+}   
+
+.sp-btn1 {
+    color: white;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29.05px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 100px;
+    height: 60px;
+    left: 366px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    background: #647299;
+}
+
+.sp-btn2 {
+    color: white; 
+    background: #647299;
+    font-family: Inter;
+    font-size: 23.05px;
+    font-weight: 800;
+    line-height: 27.89px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 222.44px;
+    height: 60px;
+    gap: 0px;
+    border-radius: 11.52px;
+    opacity: 0px;
+}
+
+.equal-to {
+    background-color: red;
+    width: 222.44px;
+    height: 60px;
+    left: 243.56px;
+    gap: 0px;
+    border-radius: 11.52px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 23.05px;
+    font-weight: 800;
+    line-height: 27.89px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+
